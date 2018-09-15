@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TwitterAppExample</string>
+    <string name="login_error_message">Imposible iniciar sesion</string>
+    <string name="main.header.images">Imágenes</string>
+    <string name="main.header.hashtag">Hashtags</string>
+    <string name="main.action.logout">Cerrar sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
