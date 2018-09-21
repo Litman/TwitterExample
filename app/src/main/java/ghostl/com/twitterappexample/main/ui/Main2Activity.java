@@ -17,7 +17,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import ghostl.com.twitterappexample.MainActivity;
 import ghostl.com.twitterappexample.R;
-import ghostl.com.twitterappexample.hashtags.HashtagsFragment;
+import ghostl.com.twitterappexample.hashtags.ui.HashtagsFragment;
 import ghostl.com.twitterappexample.images.ui.ImagesFragment;
 import ghostl.com.twitterappexample.main.adapters.MainSectionsPagerAdapter;
 

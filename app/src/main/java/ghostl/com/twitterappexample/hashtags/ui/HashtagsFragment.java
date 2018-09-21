@@ -1,4 +1,4 @@
-package ghostl.com.twitterappexample.hashtags;
+package ghostl.com.twitterappexample.hashtags.ui;
 
 
 import android.os.Bundle;

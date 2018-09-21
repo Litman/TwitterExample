@@ -1,6 +1,8 @@
 package ghostl.com.twitterappexample.images;
 
 
+import android.util.Log;
+
 import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.Result;
 import com.twitter.sdk.android.core.TwitterException;
@@ -8,7 +10,6 @@ import com.twitter.sdk.android.core.models.MediaEntity;
 import com.twitter.sdk.android.core.models.Tweet;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -37,6 +38,7 @@ public class ImagesRepositoryImpl implements  ImagesRepository{
     public void getImages() {
 
         Callback<List<Tweet>> callback = new Callback<List<Tweet>>() {
+
             @Override
             public void success(Result<List<Tweet>> result) {
                 List<Image> items = new ArrayList<Image>();
@@ -77,7 +79,8 @@ public class ImagesRepositoryImpl implements  ImagesRepository{
 
             @Override
             public void failure(TwitterException e) {
-
+                e.printStackTrace();
+                Log.d("Error", e.getMessage() );
                 post(e.getLocalizedMessage());
             }
         };

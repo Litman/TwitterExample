@@ -39,4 +39,6 @@ public class TwitterClientApp extends Application{
                 .build();
 
     }
+
+    public HashtagsC
 }

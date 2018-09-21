@@ -6,8 +6,9 @@ import com.twitter.sdk.android.core.models.Tweet;
 
 import java.util.List;
 
-import retrofit2.http.GET;
-import retrofit2.http.Query;
+
+import retrofit.http.GET;
+import retrofit.http.Query;
 
 public interface TimelineService {
 
