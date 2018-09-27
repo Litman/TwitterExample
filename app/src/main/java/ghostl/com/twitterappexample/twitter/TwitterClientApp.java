@@ -10,6 +10,8 @@ import com.twitter.sdk.android.core.TwitterAuthConfig;
 import ghostl.com.twitterappexample.BuildConfig;
 
 
+import ghostl.com.twitterappexample.hashtags.di.HashtagsComponent;
+import ghostl.com.twitterappexample.hashtags.ui.HashtagsView;
 import ghostl.com.twitterappexample.images.di.DaggerImagesComponent;
 import ghostl.com.twitterappexample.images.di.ImagesComponent;
 import ghostl.com.twitterappexample.images.di.ImagesModule;
@@ -40,5 +42,11 @@ public class TwitterClientApp extends Application{
 
     }
 
-    public HashtagsC
+//    public HashtagsComponent getHashtagsComponent(HashtagsView view, ghostl.com.twitterappexample.hashtags.ui.adapters.OnItemClickListener clickListener){
+//        return DaggerHashtagsComponent
+//                .builder()
+//                .lib
+//    }
+
+
 }
